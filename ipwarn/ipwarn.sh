@@ -24,7 +24,7 @@ else
     echo IP address has changed. Sending email and updating web file.;
 
     #uncomment for email
-    sudo echo $IP | mail -s "Home external IP has changed" ben@ootf.co.uk;
+    sudo echo $IP | mail -s "Home external IP has changed" email@email.co.uk;
 
     #copy to web server
     sudo cp $FILE $WEBFILE;
